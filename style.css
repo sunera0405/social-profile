@@ -93,8 +93,9 @@ body{
 
 .attribution{
     display: flex;
-    
     margin-top: 10rem;
+    font-size: 11px;
+    text-align: center;
    
 }
 .attribution img{
@@ -102,4 +103,7 @@ body{
 }
 .attribution p{
     align-self:flex-end;
+}
+.attribution a{
+    color:hsl(228,45%,44%);}
 }
