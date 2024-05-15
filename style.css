@@ -1,0 +1,105 @@
+:root{
+    --Mobile-view: 375px;
+    --Desktop-view: 2440px;
+    /*colors*/
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+    --Font-size-paragraph: 12px;
+    --Weights-1: 400;
+    --Weights-2:600;
+    --Weights-3:700;
+   --font-family: "Inter", sans-serif;
+    --font-optical-sizing: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Off-Black);
+    color: var(--White);
+    
+}
+.card{
+    background-color: var(--Dark-Grey);
+    margin:auto;
+    margin-top: 7rem;
+    
+    padding-inline: 1rem;
+    font-family: var(--font-family);
+    border-radius: 15px;
+    text-align: center;
+    max-width:19rem;
+    max-height: 280rem;
+    font-size: var(--Font-size-paragraph);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.platform{
+   
+   
+   display: grid; 
+   grid-template-columns:15rem;
+   grid-template-rows:  3rem 3rem 3rem 3rem 3rem;
+   font-size: var(--Font-size-paragraph); 
+     
+}                                      
+ .btn{
+    
+    border-radius: 7px;
+    background-color:var(--Grey);
+    color: var(--White);
+    font-weight:var(--Weights-1);
+    margin-block: 0.5rem;
+    font-size: var(--Font-size-paragraph);
+    box-shadow: 0px 0px 0px -5px ;
+}
+.btn:hover{
+    background-color: var(--Green);
+}
+
+.pic,img{
+    margin-bottom: 0.5rem;
+   border-radius:100px;
+   max-width:4.5rem;
+   margin-top: 1rem;
+}
+.username{
+    margin-bottom: 1rem;
+    font-weight: var(--Weights-3);
+}
+.bio,p{
+    margin-bottom: 0.5rem;
+}
+.location p{
+    margin-bottom: 2rem;
+    margin-top:0rem;
+    color:var(--Green);
+    font-weight:var(--Weights-1);
+    font-size: var(--Font-size-paragraph);
+
+}
+
+.attribution{
+    display: flex;
+    
+    margin-top: 10rem;
+   
+}
+.attribution img{
+    width: 1.5rem;
+}
+.attribution p{
+    align-self:flex-end;
+}
